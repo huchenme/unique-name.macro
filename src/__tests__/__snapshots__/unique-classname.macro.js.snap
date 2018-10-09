@@ -1,0 +1,43 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`macros 1. macros: 1. macros 1`] = `
+"
+import className from '../unique-classname.macro'
+
+const abc = className()
+const def = className()
+
+      ↓ ↓ ↓ ↓ ↓ ↓
+
+const abc = \\"1u6x1nq\\";
+const def = \\"9c4qu0\\";
+"
+`;
+
+exports[`macros 1. macros: 1. macros 2`] = `
+"
+import className from '../unique-classname.macro'
+
+const abc = className()
+const def = className('something')
+
+      ↓ ↓ ↓ ↓ ↓ ↓
+
+const abc = \\"1u6x1nq\\";
+const def = \\"xpowsb\\";
+"
+`;
+
+exports[`macros 1. macros: 1. macros 3`] = `
+"
+import className from '../unique-classname.macro'
+
+const abc = className('something')
+const def = className('something')
+
+      ↓ ↓ ↓ ↓ ↓ ↓
+
+const abc = \\"xpowsb\\";
+const def = \\"1phojss\\";
+"
+`;

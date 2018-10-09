@@ -1,0 +1,42 @@
+{
+  "name": "unique-classname.macro",
+  "version": "0.0.0-development",
+  "description": "Babel Plugin Macro to generate unique className",
+  "main": "build/unique-classname.macro.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/huchenme/unique-classname.macro.git"
+  },
+  "author": "Hu Chen",
+  "license": "MIT",
+  "keywords": [
+    "babel-macros",
+    "babel-plugin-macros",
+    "babel",
+    "classname",
+    "emotion"
+  ],
+  "scripts": {
+    "test": "jest",
+    "build": "babel src --out-dir build",
+    "semantic-release": "semantic-release"
+  },
+  "dependencies": {
+    "babel-plugin-macros": "^2.4.2"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.1.2",
+    "@babel/core": "^7.1.2",
+    "@babel/preset-env": "^7.1.0",
+    "babel-core": "^7.0.0-bridge",
+    "babel-jest": "^23.6.0",
+    "babel-plugin-tester": "^5.5.1",
+    "jest": "^23.6.0",
+    "semantic-release": "^15.9.17"
+  },
+  "babel": {
+    "presets": [
+      "@babel/preset-env"
+    ]
+  }
+}
