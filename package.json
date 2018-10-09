@@ -19,7 +19,8 @@
   "scripts": {
     "test": "jest",
     "build": "babel src --out-dir build",
-    "semantic-release": "semantic-release"
+    "semantic-release": "semantic-release",
+    "travis-deploy-once": "travis-deploy-once"
   },
   "dependencies": {
     "babel-plugin-macros": "^2.4.2"
@@ -32,7 +33,8 @@
     "babel-jest": "^23.6.0",
     "babel-plugin-tester": "^5.5.1",
     "jest": "^23.6.0",
-    "semantic-release": "^15.9.17"
+    "semantic-release": "^15.9.17",
+    "travis-deploy-once": "^5.0.9"
   },
   "babel": {
     "presets": [
