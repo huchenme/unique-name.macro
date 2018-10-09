@@ -1,5 +1,7 @@
 # unique-name.macro
 
+[![Build Status](https://travis-ci.org/huchenme/unique-classname.macro.svg?branch=master)](https://travis-ci.org/huchenme/unique-classname.macro)
+
 This is a [babel-macros](https://github.com/kentcdodds/babel-macros) to generate unique className for css-in-js.
 
 If you are coming from CSS modules and want to convert a large code base to `emotion`, sometimes you might have some empty classNames added to the container div as state of the component.
