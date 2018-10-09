@@ -1,4 +1,4 @@
-# unique-name.macro
+# unique-classname.macro
 
 [![Build Status](https://travis-ci.org/huchenme/unique-classname.macro.svg?branch=master)](https://travis-ci.org/huchenme/unique-classname.macro)
 
