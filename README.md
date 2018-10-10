@@ -1,6 +1,8 @@
 # unique-classname.macro
 
-[![Build Status](https://travis-ci.org/huchenme/unique-classname.macro.svg?branch=master)](https://travis-ci.org/huchenme/unique-classname.macro)
+
+[![Travis (.org)](https://img.shields.io/travis/huchenme/unique-classname.macro.svg?style=flat-square)](https://travis-ci.org/huchenme/unique-classname.macro)
+[![Babel Macro](https://img.shields.io/badge/babel--macro-%F0%9F%8E%A3-f5da55.svg?style=flat-square)](https://github.com/kentcdodds/babel-plugin-macros)
 
 This is a [babel-macros](https://github.com/kentcdodds/babel-macros) to generate unique className for css-in-js.
 
