@@ -19,7 +19,7 @@
   "scripts": {
     "test": "jest",
     "prebuild": "rimraf build",
-    "build": "babel src --out-dir build",
+    "build": "babel src --out-dir build --ignore '**/__tests__'",
     "semantic-release": "semantic-release",
     "travis-deploy-once": "travis-deploy-once"
   },
