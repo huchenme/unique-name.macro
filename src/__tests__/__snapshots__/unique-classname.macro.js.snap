@@ -9,8 +9,8 @@ const def = className()
 
       ↓ ↓ ↓ ↓ ↓ ↓
 
-const abc = \\"1u6x1nq\\";
-const def = \\"9c4qu0\\";
+const abc = \\"abc-1u6x1nq\\";
+const def = \\"def-9c4qu0\\";
 "
 `;
 
@@ -23,8 +23,8 @@ const def = className('something')
 
       ↓ ↓ ↓ ↓ ↓ ↓
 
-const abc = \\"1u6x1nq\\";
-const def = \\"xpowsb\\";
+const abc = \\"abc-1u6x1nq\\";
+const def = \\"something-xpowsb\\";
 "
 `;
 
@@ -37,7 +37,7 @@ const def = className('something')
 
       ↓ ↓ ↓ ↓ ↓ ↓
 
-const abc = \\"xpowsb\\";
-const def = \\"1phojss\\";
+const abc = \\"something-xpowsb\\";
+const def = \\"something-1phojss\\";
 "
 `;

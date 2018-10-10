@@ -81,7 +81,7 @@ The above snippet will be compiled in build time:
 import className from 'unique-classname.macro'
 import { css } from 'emotion'
 
-const disabled = '1u6x1nq'
+const disabled = 'disabled-1u6x1nq'
 
 const container = css`
   background: white;

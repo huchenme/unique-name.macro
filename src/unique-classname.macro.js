@@ -19,7 +19,7 @@ function uniqueClassnameMacro({ references, state, babel }) {
     }
     const newName = `${fileName}-${variableName}`
     const newUid = referencePath.scope.generateUidIdentifier(newName).name
-    parentPath.replaceWith(t.stringLiteral(`${hash(newUid)}`))
+    parentPath.replaceWith(t.stringLiteral(`${variableName}-${hash(newUid)}`))
   })
 }
 
