@@ -1,11 +1,11 @@
 {
-  "name": "unique-classname.macro",
+  "name": "unique-name.macro",
   "version": "0.0.0-development",
   "description": "Babel Plugin Macro to generate unique className",
   "main": "build/unique-classname.macro.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/huchenme/unique-classname.macro.git"
+    "url": "https://github.com/huchenme/unique-name.macro.git"
   },
   "author": "Hu Chen",
   "license": "MIT",
