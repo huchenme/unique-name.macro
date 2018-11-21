@@ -1,6 +1,6 @@
 # unique-name.macro
 
-[![NPM Version](https://img.shields.io/npm/v/unique-name.macro.svg?style=flat-square)](https://www.npmjs.com/package/unique-name.macro.svg)
+[![NPM Version](https://img.shields.io/npm/v/unique-name.macro.svg?style=flat-square)](https://www.npmjs.com/package/unique-name.macro)
 [![Travis (.org)](https://img.shields.io/travis/huchenme/unique-name.macro.svg?style=flat-square)](https://travis-ci.org/huchenme/unique-name.macro)
 [![Babel Macro](https://img.shields.io/badge/babel--macro-%F0%9F%8E%A3-f5da55.svg?style=flat-square)](https://github.com/kentcdodds/babel-plugin-macros)
 
